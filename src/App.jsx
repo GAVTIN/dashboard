@@ -10,7 +10,7 @@ function App() {
     <Router>
       <Suspense fallback="Loding.....">
         <Routes>
-          <Route exact path="/" element={<LandingPage />} />
+          <Route path="/dashboard" element={<LandingPage />} />
           <Route path="/invite" element={<InvitationPage />} />
         </Routes>
       </Suspense>

@@ -26,7 +26,7 @@ const InvitationPage = () => {
   };
 
   const handleCancel = () => {
-    navigate('/')
+    navigate('/dashboard')
   }
 
   return (
