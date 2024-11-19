@@ -271,7 +271,8 @@ const LandingPage = () => {
       <AppBar position="static" sx={{ background: 'linear-gradient(to right, #64b5f6, #1976d2)'}}>
         <Toolbar sx={{width: "55vw", justifyContent: "space-between"}}>
           <IconButton color="inherit" aria-label="logo">
-            <img src={xorLog} alt="Logo" style={{ width: '140px', mixBlendMode: "multiply" }} />
+            {/* <img src={xorLog} alt="Logo" style={{ width: '140px', mixBlendMode: "multiply" }} /> */}
+            COMPANY
           </IconButton>
           <Typography position="center" variant="h6" sx={{ fontWeight: "600", background: 'inherit' }}>
             INVITATION DASHBOARD
